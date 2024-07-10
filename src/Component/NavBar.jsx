@@ -22,7 +22,7 @@ const NavBar = () => {
             {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
         </div>
         {/*after clicking icon */}
-        <div className = {nav ?'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-300 bg-[#000300]':'fixed left-[-100%]'}>
+        <div className = {nav ?'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-300 bg-[#000300] z-50':'fixed left-[-100%]'}>
         <h1 className="text-3xl primary-color m-4">Tushar</h1>
             <ul className="p-8 text-2l">{/*if screen size is big then it will show* else it will hide*/}
             <li className="p-2"><a href="#home">Home</a></li>

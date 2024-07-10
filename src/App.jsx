@@ -6,6 +6,8 @@ import Experience from "./Component/Experience"
 import Contact from "./Component/Contact"
 import Footer from "./Component/Footer"
 
+
+
 function App() {
   
   return (
@@ -13,7 +15,7 @@ function App() {
       <NavBar/>
       <Hero/>
      <About/>
-     <Work/>
+     <Work />
      <Experience/>
      <Contact/>
      <Footer/>

@@ -53,18 +53,18 @@ const Hero = () => {
              
             </p>
           </div>
-          <div className="text-5xl flex justify-start sm:justify-center gap-16 my-7 text-purple-600 ">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillInstagram />
+          <div className="text-5xl flex justify-center md:justify-start xl:justify-start gap-16 my-7 text-purple-600 hover:cursor-pointer">
+           <a href="https://www.linkedin.com/in/tushar-mondal-a78b0a219/"> <AiFillLinkedin  /></a> 
+            <a href="https://github.com/ImmortalSoul21"><AiFillGithub /></a>
+            <a><AiFillInstagram /></a>
           </div>
-          <div className="relative inline-flex group my-3">
+          <div className="relative inline-flex group my-3 justify-center md:justify-start xl:justify-start">
             {<div className="absolute w-[190px] inset-0 transition-all duration-1000 opacity-70 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt z-0"></div>}
             <a
-              href="/"
+              href="https://apricot-angelita-45.tiiny.site/"
               title="Download CV"
               role="button"
-              className= " z-10 w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+              className= " z-10 w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 sm: "
             >
               Download CV
             </a>
