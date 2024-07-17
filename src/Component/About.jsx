@@ -20,7 +20,7 @@ const About = () => {
             <h3 className="text-4xl font-semibold mb-5">
               About<span className="primary-color">Me</span>
             </h3>
-            <p className="text-justify leading-7 w-11/12 mx-auto">
+            <p className="text-justify leading-7 tracking-wider w-11/12 mx-auto">
               Hello, my name is Tushar Mondal, a Computer Science and
               Engineering graduate from Visvesvaraya Technological University
               with a 9.0 CGPA. I am proficient in Python, PHP, and the MERN
